@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="link to the stylesheet file">
+    <title>practicing html</title>
+</head>
+<body>
+    <h1>This is Heading tag.</h1>
+    <h2>Second Heading but less prominent.</h2>
+    <h3>More less prominent.</h3>
+    <h4>More less prominent.</h4>
+    <h5>More less prominent.</h5>
+    <h6 id="gardening-tips">More less prominent.</h6>
+    <p class="example" style="color: brown;">
+        This is paragraph tag. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illum dolore debitis fugit unde, repellat ab impedit non, <br> <b>This breaks the line "\<\br\>\"</b>temporibus perferendis in laborum porro! Sed placeat repellat sit omnis dicta odio quaerat praesentium, fugiat debitis veritatis eligendi aliquam tempore eaque dolorem libero aut. Officia labore veniam qui consectetur adipisci voluptates nobis officiis.
+    </p>
+    <hr>
+    <!-- this puts a horizontal line to seperate things -->
+    <a href="https://thiswillbetheurl">This is anchor tag-known as hyperlink.</a>
+    <img src="image's path" alt="Profile Picture" width="300" height="100"> <!-- this is image tag-->
+    
+    <pre>
+        # A simple Python program to print "Hello, World!"
+      def main():
+          print("Hello, World!")
+      
+      if __name__ == "__main__":
+          main()
+    </pre>
+    <!-- <pre>: Defines preformatted text, preserving spaces and line breaks as written. Example: The text above shows exact spacing and a new line. -->
+    <span>This is <strong>important</strong> text.</span>
+    <!-- This is generally considered incorrect -->
+    <span>This is <div>not recommended</div> text.</span>
+    <!--We do not keep block element inside inline element <span> is inline and div is block so we cannot keep div inside span , it might result in unexpected behaviour.-->
+    <h2>Unordered list example:-</h2>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ul>
+    <h2>Ordered list example:</h2>
+    <ol>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>Item 4</li>
+    </ol>
+    <h2>Html Definition List</h2>
+    <dl>
+        <dt>HTML</dt>
+        <dd>Hyper Text Markup Language: Standard language for creating web pages.</dd>
+    </dl>
+    <dl>
+        <dt>CSS</dt>
+        <dd>CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes</dd>
+    </dl>
+    <dl>
+        <dt>JAVASCRIPT</dt>
+        <dd>JavaScript is a programming language used to create interactive web pages</dd>
+    </dl>
+    <hr>
+    <table border="1">
+        <tr>
+            <th>NAME</th>
+            <th>AGE</th>
+        </tr>
+        <tr>
+            <td>Raushan</td>
+            <td>100</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1">
+        <tr>
+          <td colspan="2">Merged Columns</td>
+        </tr>
+        <tr>
+          <td>Column 1</td>
+          <td>Column 2</td>
+        </tr>
+    </table>
+    <hr>
+    <table border="1">
+        <caption>Student Details</caption>
+        <tr>
+          <td>Row 1, Column 1</td>
+          <td rowspan="2">Merged Rows</td>
+        </tr>
+        <tr>
+          <td>Row 2, Column 1</td>
+        </tr>
+    </table>
+    <hr>
+    
+    <h2>Form to apply for sigma web dev TA</h2>
+    <form action="post">
+        <div>
+            <label for="username">Enter your Username: </label>
+             <input type="text" id="username" name="username" placeholder="Enter Your Username" autofocus >
+        </div>
+        <div>
+            <input type="radio" name="gender" id="male" value="male">
+            <label for="male">Male</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="female">Female</label>
+        </div>
+        <div>
+            <input type="checkbox" id="subscribe" name="subscribe" value="yes">
+            <label for="subscribe">Subscribe to newsletter.</label>
+        </div>
+        <div>
+            <label for="comment">Enter your comment here:</label>
+            <textarea name="comment" rows="4" cols="50" id="comment"></textarea>
+        </div>
+        <div>
+            <select name="fruits" id="fruits">
+                <option value="none">None</option>
+                <option value="apple">Apple</option>
+                <option value="banana">Banana</option>
+                <option value="Pineapple">Pineapple</option>
+            </select>
+        </div>
+    </form>
+<script type=""></script>
+</body>
+</html>
